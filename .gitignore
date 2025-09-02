@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Prevent committing placeholder image assets
+public/*.png
+public/*.jpg
+public/*.jpeg
+public/*.svg
+public/*.ico
+!public/ASSETS.md
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
