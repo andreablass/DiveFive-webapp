@@ -1,16 +1,16 @@
 <script setup>
 import { reactive } from 'vue'
 const steps = reactive([
-  { icon: '/icon-watch.svg', text: '1. Registra tu inmersión', error: false },
-  { icon: '/icon-map.svg', text: '2. Agrega ubicación y detalles', error: false },
-  { icon: '/icon-log.svg', text: '3. Analiza tus estadísticas', error: false }
+  { icon: '/icon-watch.svg', text: '1. Record your dive', error: false },
+  { icon: '/icon-map.svg', text: '2. Add location and details', error: false },
+  { icon: '/icon-log.svg', text: '3. Analyze your stats', error: false }
 ])
 </script>
 
 <template>
   <section class="py-16 bg-gray-100">
     <div class="max-w-5xl mx-auto px-4">
-      <h2 class="text-2xl font-bold text-center mb-10">Cómo funciona</h2>
+      <h2 class="text-2xl font-bold text-center mb-10">How it works</h2>
       <div class="grid md:grid-cols-3 gap-8 text-center">
         <div v-for="(step, idx) in steps" :key="idx">
           <div class="mx-auto mb-4 h-12 w-12 flex items-center justify-center">
