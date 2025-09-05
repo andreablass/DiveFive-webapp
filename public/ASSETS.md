@@ -1,11 +1,9 @@
 # DiveFive Landing Assets
 
-The following image files should be placed in this directory:
+Place the following image files in this directory before building:
 
-- diving-hero.jpg – hero background photo
-- app-mock1.png – app screenshot one
-- app-mock2.png – app screenshot two
-- logo.svg – DiveFive logo used in footer
+- diving-hero.jpg – hero background photo for social previews
+- logo.svg – site favicon
 - icon-watch.svg – watch/HealthKit icon
 - icon-map.svg – map icon
 - icon-log.svg – dive log icon
